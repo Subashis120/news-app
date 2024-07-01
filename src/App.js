@@ -24,7 +24,7 @@ export default class App extends Component{
         color='#f11946'
         progress={this.state.progress}
       />
-      <div className='container my-5'>
+      <div className='container mt-5'>
         <h1><span className='fw-bolder text-danger'>NewsMonkey</span> - Top headlines</h1>
         <Routes>
         <Route exact path='/'  element={<News key={"business"} setProgress={this.setProgress} pageSize={6} category={'business'}/>}/>
